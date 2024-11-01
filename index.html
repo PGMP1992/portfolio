@@ -23,12 +23,12 @@
     } 
     
     /* For mobile phones: */
-[class*="col-"] {
+[class*="col-ms"] {
   width: 100%;
 }
 
-@media only screen and (min-width: 500px) {
-  /* For tablets: */
+/* @media only screen and (min-width: 576px) {
+  /* For tablets: 
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
   .col-s-3 {width: 25%;}
@@ -41,10 +41,10 @@
   .col-s-10 {width: 83.33%;}
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
-}
+} */
 
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
+/*@media only screen and (min-width: 768px) {
+  /* For desktop: 
   .col-1 {width: 8.33%;}
   .col-2 {width: 16.66%;}
   .col-3 {width: 25%;}
@@ -57,7 +57,7 @@
   .col-10 {width: 83.33%;}
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
-}
+} */
 </style>
 </head>
 
@@ -71,7 +71,7 @@
               aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span> 
           </button>
-          <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+          <div class="navbar d-sm-inline-flex justify-content-between">
             <ul class="navbar-nav flex-grow-1">
               <li class="nav-item"><a class="nav-link text-light" onclick=load_page("home.html","content")>Home</a></li>
               <li class="nav-item"><a class="nav-link text-light" onclick=load_page("about.html","content")>About</a></li>
