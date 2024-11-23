@@ -1,12 +1,26 @@
- :root {
-  --back:#052742;
-  --font: #8e948e;
+:root {
+  --back:#ffffff;
+  --font: #585c58;
   --invertfont: white;
-  --a: #097ff5;
+  --a: #187718;
   --banner: #1a1919;
   }
 
-.sidenav{
+ .body, .card, .navbar {
+        background-color: var(--back);
+        color : var(--font);
+      }
+      
+.navbar {
+  
+  color : var(--a);
+}
+
+a, button, .nav-link, h1, h2, h3, h4, h5, h6 {
+  color: var(--a); 
+}
+
+/* .sidenav{
   position: sticky;
   padding: 10px;
   top: 0px;
@@ -47,14 +61,14 @@
   padding: 0px 10px;
 }
 
-/* Contact ------------------------*/
+/* Contact ------------------------
 #map {
   width:100%;
   height: auto;
   margin-right: 2%;
 }
 
-  /* Style inputs */
+  /* Style inputs 
   input[type=text], select, textarea {
     width: 100%;
     padding: 7px;
@@ -75,14 +89,14 @@
     background-color: var(--a);
   }
 
-  /* Style the bottom navigation bar */
+  /* Style the bottom navigation bar
 #bottomnav {
   overflow: hidden;
   background-color: var(--back);
   color: var(--a);
 }
 
-/* Style the nav links */
+/* Style the nav links 
 .bottomnav a {
   float: left;
   display: block;
@@ -105,4 +119,4 @@
 footer {
   bottom: 0;
   position: fixed;
-}
+} */
