@@ -3,21 +3,29 @@
   --font: #585c58;
   --invertfont: white;
   --a: #187718;
+  --navbar : #044904;
   --banner: #1a1919;
   }
 
- .body, .card, .navbar {
+ .body, .card {
         background-color: var(--back);
         color : var(--font);
       }
       
 .navbar {
-  
-  color : var(--a);
+  color : var(--back);
+  background-color: var(--navbar);
+  .nav-link{
+    color : var(--back);
+  }
 }
 
 a, button, .nav-link, h1, h2, h3, h4, h5, h6 {
   color: var(--a); 
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* .sidenav{
