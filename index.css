@@ -28,6 +28,18 @@ a:hover {
   text-decoration: underline;
 }
 
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* white-space: nowrap; */
+  line-height: 10px;
+  color:var(--invertfont);
+  text-align: center;
+  background-color: var(--navbar);
+}
+
+
 /* .sidenav{
   position: sticky;
   padding: 10px;
