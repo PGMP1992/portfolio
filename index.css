@@ -23,7 +23,17 @@
 
 a, button, .nav-link {
   color: var(--a); 
+  cursor: pointer;
 }
+
+.tablinks {
+  background-color: #ebf1f7;
+}
+
+.tablinks:hover {
+  color: var(--back);
+  background-color: #b8d4ee;
+} 
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--header); 
